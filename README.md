@@ -69,6 +69,25 @@ Backups are saved in `~/f1_backups`.
 
 ---
 
+## 🐍 Python API Setup
+
+A simple REST API using Flask has been added to expose driver data via HTTP.
+
+**Added Files:**
+- `app.py` – Flask application with `/drivers` endpoint.
+- `requirements.txt` – Python dependencies.
+- `config.py` – Database configuration.
+
+**Start the API:**
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+Navigate to [http://localhost:5000/drivers](http://localhost:5000/drivers) to see the list of drivers in JSON format.
+
+----
+
 ## 🧪 Sample Output
 
 Example output from `./query_drivers.sh`:
@@ -102,3 +121,5 @@ Charles Leclerc          Monaco                Ferrari
 MIT License – Free to use and modify.
 
 ---
+
+
