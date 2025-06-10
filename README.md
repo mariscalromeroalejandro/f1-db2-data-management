@@ -10,6 +10,9 @@ Project to manage Formula 1 data, including drivers, teams, races, and results. 
 formula1_db_project/
 ├── setup_db.sh          # Creates the F1DB database
 ├── create_tables.sql    # Creates database tables
+├── config.py            # DB configuration
+├── app.py               # Flask API
+├── requirements.txt     # API dependencies
 ├── insert_data.sql      # Inserts sample data
 ├── query_drivers.sh     # Queries and displays driver information
 ├── backup_db.sh         # Backs up the database
@@ -110,7 +113,6 @@ Charles Leclerc          Monaco                Ferrari
 
 ## 🚀 Future Improvements
 
-- Add a Python or Node.js API
 - Build a web interface (Flask/Express)
 - Schedule backups with `cron`
 
