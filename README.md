@@ -1,6 +1,6 @@
 # 🏎️ Formula 1 Data Management System with DB2 and Linux
 
-This project demonstrates how to use **IBM DB2** and **Linux shell scripts** to manage Formula 1 data, including drivers, teams, races, and results. It provides SQL scripts for database setup and Bash scripts for automation.
+Project to manage Formula 1 data, including drivers, teams, races, and results. It provides SQL scripts for database setup and Bash scripts for automation.
 
 ---
 
